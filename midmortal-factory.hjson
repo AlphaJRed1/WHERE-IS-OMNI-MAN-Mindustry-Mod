@@ -1,0 +1,23 @@
+Name: Midmortal Factory
+description: idk anymore
+type: UnitFactory
+size: 3
+consumes: {
+  power: 10
+}
+plans: [
+  {
+    unit: midmortal
+    time: 10000
+    requirements: [
+silicon/500
+sea-salt/250
+metaglass/175
+    ]
+  }
+]
+requirements: [
+sea-salt/100
+]
+research: ground-factory
+category: units

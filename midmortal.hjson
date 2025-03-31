@@ -1,0 +1,32 @@
+Name: midmortal
+description: STOP RIGHT THERE CONQUEST! said Immortal 7 days later in the shower
+type: flying
+flying: true
+health: 1
+armor: 0
+speed: 8
+rotateSpeed: 10
+drag: 0.03
+accel: 0.1
+hitSize: 20
+engineSize: 0
+lowAltitude: false
+faceTarget: false
+circleTarget: true
+itemCapacity: 999
+weapons: [
+ {
+  name: OMNIMAN
+  shootSound: WHEREISOMNIMAN
+  rotate: true
+rotateSpeed: 30
+  x: 0
+  y: 0
+  reload: 60
+  bullet: {
+  damage: 0
+lifetime: 1
+  }
+ }
+
+]
